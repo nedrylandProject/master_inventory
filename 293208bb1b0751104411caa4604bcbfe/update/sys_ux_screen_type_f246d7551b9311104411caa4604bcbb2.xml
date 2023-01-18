@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Info</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-20 18:06:57</sys_created_on>
+        <sys_id>f246d7551b9311104411caa4604bcbb2</sys_id>
+        <sys_name>Info</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_ux_screen_type_f246d7551b9311104411caa4604bcbb2</sys_update_name>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=f246d7551b9311104411caa4604bcbb2"/>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c8540cbf1b0751104411caa4604bcb11" label="Inventory" max_length="40" name="x_401248_minv_inventory" type="collection">
+        <element label="Inventory code" max_length="40" name="inventory_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Inventory name" max_length="40" name="inventory_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
