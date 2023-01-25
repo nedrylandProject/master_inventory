@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9c92ee2e1ba4a1104411caa4604bcb47" sys_domain="global" table="x_401248_minv_inventory" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-25 14:51:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1492ee2e1ba4a1104411caa4604bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_401248_minv_inventory" name="x_401248_minv_inventory" sys_domain="global" view="Default view">9c92ee2e1ba4a1104411caa4604bcb47</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_401248_minv_inventory" sys_domain="global" view="Default view">3e0f4c731b4751104411caa4604bcbe2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-25 14:51:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-25 14:51:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9092ee2e1ba4a1104411caa4604bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_401248_minv_inventory" name="x_401248_minv_inventory" sys_domain="global" view="Default view">9c92ee2e1ba4a1104411caa4604bcb47</sys_ui_form>
+            <sys_ui_section caption="Updates" display_value="Updates" name="x_401248_minv_inventory" sys_domain="global" view="Default view">dc92ee2e1ba4a1104411caa4604bcb49</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-25 14:51:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-25 15:26:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b37aae261be4a1104411caa4604bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_401248_minv_inventory" name="x_401248_minv_inventory" sys_domain="global" view="Default view">9c92ee2e1ba4a1104411caa4604bcb47</sys_ui_form>
+            <sys_ui_section caption="Created" display_value="Created" name="x_401248_minv_inventory" sys_domain="global" view="Default view">337a2ae21be4a1104411caa4604bcb2a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-25 15:26:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_401248_minv_inventory</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-25 14:51:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c92ee2e1ba4a1104411caa4604bcb47</sys_id>
+            <sys_name>x_401248_minv_inventory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9c92ee2e1ba4a1104411caa4604bcb47</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
