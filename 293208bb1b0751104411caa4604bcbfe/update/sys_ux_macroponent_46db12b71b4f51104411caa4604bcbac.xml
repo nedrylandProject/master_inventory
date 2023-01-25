@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "alert_1",
+  "elementLabel" : "Alert 1",
+  "propertyValues" : {
+    "preventDefaultAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "headerLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Modal header",
+        "comment" : ""
+      }
+    },
+    "content" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Modal body copy goes here",
+        "comment" : ""
+      }
+    },
+    "buttonLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Got it",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "05d8b1515b230010b913cbd59b81c71a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "appointment_calendar_1",
+      "elementLabel" : "Appointment calendar 1",
+      "propertyValues" : {
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "WEEK"
+        },
+        "dateFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "MMMM D, YYYY"
+        },
+        "timezone" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "timezone" ]
+          }
+        },
+        "firstDayOfWeek" : {
+          "type" : "JSON_LITERAL",
+          "value" : "0"
+        },
+        "timeFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "hh:mm A"
+        },
+        "nextAvailableEvent" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "start" : "2020-07-27 17:15:00",
+            "end" : "2020-07-27 18:00:00",
+            "type" : "available"
+          }
+        },
+        "contextDate" : {
+          "type" : "JSON_LITERAL",
+          "value" : "2020-07-22"
+        },
+        "appTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Schedule appointment"
+        },
+        "locale" : {
+          "type" : "JSON_LITERAL",
+          "value" : "en"
+        },
+        "configAria" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"ariaTitle\": \"appointment calendar\", \"ariaBodyTitle\": \"appointment calendar\"}"
+        },
+        "events" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "slots" ]
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clamrzffwdaabbjjkccjjhhkuccbmuiyaa",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#SCHEDULE_APPOINTMENT",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_appointment_cal.NOW_APPOINTMENT_CALENDAR#SCHEDULE_APPOINTMENT",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_401248_minv.MODAL_SELECTED_RELAY_46db12b71b4f51104411caa4604bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "modalId" : "[component-id$='alert_1']",
+                "showModal" : true,
+                "displayOptions" : null,
+                "bare" : false,
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
+              }
+            },
+            "sysId" : "e79af8701bdf11104411caa4604bcb80"
+          },
+          "operation" : null,
+          "targetId" : "clamrzffweaabbjjlccjjhhkjbbaihhkvq",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : "",
+      "definition" : {
+        "id" : "486b3b0477e9acfa6e30c74dcbc04877",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    }, {
+      "elementId" : "button_1",
+      "elementLabel" : "Button 1",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary"
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Refresh",
+            "comment" : ""
+          }
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_1","styles":{}},{"element_id":"appointment_calendar_1","styles":{"flex":"","max-width":"","flex-basis":"800px","flex-shrink":"650px","flex-grow":"1200px"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","flex-wrap":"wrap","margin":"var(--now-static-space--lg)"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "requestor_chat_popover_1",
+  "elementLabel" : "Requestor Chat Popover 1",
+  "propertyValues" : {
+    "offsetX" : {
+      "type" : "JSON_LITERAL",
+      "value" : "25"
+    },
+    "clientContext" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "dialogOpened" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "useVABranding" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "offsetY" : {
+      "type" : "JSON_LITERAL",
+      "value" : "25"
+    },
+    "customOpenIcon" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "fetchUnreadInterval" : {
+      "type" : "JSON_LITERAL",
+      "value" : "5000"
+    },
+    "sizeMultiplier" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "right"
+    },
+    "customCloseIcon" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "459b6006687c414afe73d47c318f4d9a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>e79af8701bdf11104411caa4604bcb80,5ea9f8bc1b9f11104411caa4604bcb20</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"container_1","styles":{}},{"element_id":"requestor_chat_popover_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>carendarius default</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Got it",
+  "comment" : ""
+}, {
+  "message" : "Modal body copy goes here",
+  "comment" : ""
+}, {
+  "message" : "Modal header",
+  "comment" : ""
+}, {
+  "message" : "Refresh",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "timezone",
+  "label" : "timezone",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "US/Eastern"
+  }
+}, {
+  "name" : "slots",
+  "label" : "slots",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : [ {
+      "start" : "2022-12-13 12:15:00",
+      "end" : "2022-12-13 13:10:00",
+      "type" : "available"
+    }, {
+      "start" : "2022-12-14 13:15:00",
+      "end" : "2022-12-14 14:15:00",
+      "type" : "available"
+    } ]
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-15 22:00:42</sys_created_on>
+        <sys_id>46db12b71b4f51104411caa4604bcbac</sys_id>
+        <sys_name>carendarius default</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_ux_macroponent_46db12b71b4f51104411caa4604bcbac</sys_update_name>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=46db12b71b4f51104411caa4604bcbac"/>
+</record_update>

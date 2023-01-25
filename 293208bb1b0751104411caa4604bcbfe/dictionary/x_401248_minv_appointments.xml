@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="44e0ef5a1b2f11104411caa4604bcbd1" label="Appointments" max_length="40" name="x_401248_minv_appointments" type="collection">
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element default="New appointment" label="Name" max_length="128" name="u_name" type="string"/>
+        <element label="Start" max_length="40" name="u_start" type="glide_date_time"/>
+    </element>
+</database>
