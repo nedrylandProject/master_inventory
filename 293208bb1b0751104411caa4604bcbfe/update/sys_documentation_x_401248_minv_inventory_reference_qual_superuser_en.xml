@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reference_qual_superuser" label="SUPER GROUP" language="en" table="x_401248_minv_inventory">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reference_qual_superuser</element>
+            <help/>
+            <hint/>
+            <label>SUPER GROUP</label>
+            <language>en</language>
+            <name>x_401248_minv_inventory</name>
+            <plural>SUPER GROUPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-09 15:49:36</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>SUPER GROUP</sys_name>
+            <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+            <sys_update_name>sys_documentation_x_401248_minv_inventory_reference_qual_superuser_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-09 16:00:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

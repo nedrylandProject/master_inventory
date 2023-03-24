@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_configuration">
+    <sys_playbook_experience_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assigned_to_field>assigned_to</assigned_to_field>
+        <expand_first_prioritized_card>true</expand_first_prioritized_card>
+        <filter_fields>assigned_to,state</filter_fields>
+        <filter_on_playbook_card_status>true</filter_on_playbook_card_status>
+        <inaccessible_data_visibility>HIDE_INACCESSIBLE_DATA</inaccessible_data_visibility>
+        <max_form_fields_on_card>15</max_form_fields_on_card>
+        <order>0</order>
+        <pending_activity_display>HIDE_LANE_AND_ACTIVITY</pending_activity_display>
+        <playbook_experience display_value="Playboy Experiences">be4b08cb2f45211082485d492799b6dd</playbook_experience>
+        <playbook_record/>
+        <playbook_table>sys_pd_process_definition</playbook_table>
+        <show_activity_state>true</show_activity_state>
+        <show_automated_manual_indicator>true</show_automated_manual_indicator>
+        <sla_configuration/>
+        <sys_class_name>sys_playbook_experience_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 13:41:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e16b08cb2f45211082485d492799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_playbook_experience_configuration_e16b08cb2f45211082485d492799b66f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 13:41:19</sys_updated_on>
+    </sys_playbook_experience_configuration>
+</record_update>

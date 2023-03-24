@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c8540cbf1b0751104411caa4604bcb11" label="Inventory" max_length="40" name="x_401248_minv_inventory" type="collection">
+    <element audit="true" db_object_id="c8540cbf1b0751104411caa4604bcb11" label="Inventory" max_length="40" name="x_401248_minv_inventory" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Edited by" max_length="32" name="edited_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Edited by Workcenter" max_length="32" name="edited_by_workcenter" reference="sys_user_group" type="reference"/>
         <element label="Inventory code" max_length="40" name="inventory_code" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Inventory name" max_length="40" name="inventory_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue reported" max_length="40" name="issue_reported" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Issue reported" value="reported"/>
+                <element inactive_on_update="false" label="Skipped" value="skipped"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="SUPER GROUP" max_length="32" name="reference_qual_superuser" reference="sys_user_group" reference_qual="javascript:new x_401248_minv.MasterQual().getmaster();" type="reference" use_reference_qualifier="advanced"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="edited_by"/>
+        </index>
+        <index name="index2">
+            <element name="edited_by_workcenter"/>
+        </index>
+        <index name="index3">
+            <element name="reference_qual_superuser"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>

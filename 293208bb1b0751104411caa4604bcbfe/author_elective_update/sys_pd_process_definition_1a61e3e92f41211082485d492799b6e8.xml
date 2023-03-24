@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>For master invertory</description>
+        <label>MM-TEST-CHECKLIST</label>
+        <name>mm_test_checklist</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 13:23:53</sys_created_on>
+        <sys_id>1a61e3e92f41211082485d492799b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MM-TEST-CHECKLIST</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 13:23:54</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>For master invertory</description>
+        <label>MM-TEST-CHECKLIST</label>
+        <name>mm_test_checklist</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 13:23:53</sys_created_on>
+        <sys_id>1a61e3e92f41211082485d492799b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MM-TEST-CHECKLIST</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 13:23:54</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="DELETE" query="process_definition=1a61e3e92f41211082485d492799b6e8"/>
+    <sys_pd_activity action="DELETE" query="process_definition=1a61e3e92f41211082485d492799b6e8"/>
+    <sys_pd_swim_lane action="DELETE" query="process_definition=1a61e3e92f41211082485d492799b6e8"/>
+    <sys_pd_activity_m2m_app_object action="DELETE" query="activity.process_definition=1a61e3e92f41211082485d492799b6e8"/>
+    <sys_pd_snapshot action="DELETE" query="sys_id="/>
+    <sys_json_chunk action="DELETE" query="document_id="/>
+    <sys_pd_snapshot_chunk action="DELETE" query="document_id="/>
+    <sys_pd_trigger_instance action="DELETE" query="sys_id=ee612f292f41211082485d492799b6b8^sys_idNOT INee612f292f41211082485d492799b6b8"/>
+    <sys_pd_trigger_instance action="DELETE">
+        <label/>
+        <name/>
+        <process_definition display_value="MM-TEST-CHECKLIST">1a61e3e92f41211082485d492799b6e8</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 13:23:54</sys_created_on>
+        <sys_id>ee612f292f41211082485d492799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 13:23:54</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=ee612f292f41211082485d492799b6b8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</application>
+        <file_path/>
+        <instance_id>1d9953b2db5f1f04536ad5b0cf9619f9</instance_id>
+        <instance_name>dev65641</instance_name>
+        <name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>For master invertory</description><label>MM-TEST-CHECKLIST</label><name>mm_test_checklist</name><run_on_pad_engine>false</run_on_pad_engine><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-16 13:23:53</sys_created_on><sys_id>1a61e3e92f41211082485d492799b6e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MM-TEST-CHECKLIST</sys_name><sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package><sys_policy/><sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope><sys_update_name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-16 13:23:54</sys_updated_on><view_type>KANBAN</view_type></sys_pd_process_definition><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>For master invertory</description><label>MM-TEST-CHECKLIST</label><name>mm_test_checklist</name><run_on_pad_engine>false</run_on_pad_engine><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-16 13:23:53</sys_created_on><sys_id>1a61e3e92f41211082485d492799b6e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MM-TEST-CHECKLIST</sys_name><sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package><sys_policy/><sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope><sys_update_name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-16 13:23:54</sys_updated_on><view_type>KANBAN</view_type></sys_pd_process_definition><sys_pd_lane action="delete_multiple" query="process_definition=1a61e3e92f41211082485d492799b6e8"/><sys_pd_activity action="delete_multiple" query="process_definition=1a61e3e92f41211082485d492799b6e8"/><sys_pd_swim_lane action="delete_multiple" query="process_definition=1a61e3e92f41211082485d492799b6e8"/><sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=1a61e3e92f41211082485d492799b6e8"/><sys_pd_snapshot action="delete_multiple" query="sys_id="/><sys_json_chunk action="delete_multiple" query="document_id="/><sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/><sys_pd_trigger_instance action="delete_multiple" query="sys_id=ee612f292f41211082485d492799b6b8^sys_idNOT INee612f292f41211082485d492799b6b8"/><sys_pd_trigger_instance action="INSERT_OR_UPDATE"><label/><name/><process_definition display_value="MM-TEST-CHECKLIST">1a61e3e92f41211082485d492799b6e8</process_definition><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-16 13:23:54</sys_created_on><sys_id>ee612f292f41211082485d492799b6b8</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-16 13:23:54</sys_updated_on><trigger_definition/><trigger_inputs/><trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type></sys_pd_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=ee612f292f41211082485d492799b6b8"/></record_update>]]></payload>
+        <payload_hash>-1682636976</payload_hash>
+        <record_name>MM-TEST-CHECKLIST</record_name>
+        <reverted_from/>
+        <source>3bc7a16e2f70211082485d492799b64d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 13:23:54</sys_created_on>
+        <sys_id>a661afe92f41211082485d492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865a6551380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 13:23:54</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>6e61afe97e412110d2d40b4f05a84a8c</update_guid>
+        <update_guid_history>6e61afe97e412110d2d40b4f05a84a8c:-1682636976,ae61e3e9ce412110fa9b294f1b9d1fef:-1785232451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 13:24:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>7bed3e5454fd432499c87d7ce8891290</sys_id>
+        <sys_metadata>1a61e3e92f41211082485d492799b6e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MM-TEST-CHECKLIST</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_scope_delete display_value="">011e2072af6e4f00a3ccd9e779b5e5e4</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_1a61e3e92f41211082485d492799b6e8">a661afe92f41211082485d492799b68d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 13:24:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

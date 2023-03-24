@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_401248_minv.MINV_calendar</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MINV_calendar</name>
+        <script><![CDATA[var MINV_calendar = Class.create();
+MINV_calendar.prototype = {
+    initialize: function() {
+    },
+
+    //getAllEventsForUsers: function(startMS, endMS, sourceDataFilter, conditionFilters, statusColor, usersArr) {
+	getAllEvents: function() {
+        var markSpanArr = [];
+        var userIDArr = [];
+/*
+        usersArr.forEach(function(user) {
+            userIDArr.push(user.id);
+        });
+
+        return {
+            events: this.getAllEvents(startMS, endMS, userIDArr, sourceDataFilter, conditionFilters, statusColor),
+            mark_spans: markSpanArr
+        };
+		*/
+        return '[{"start":"2023-02-21 18:15:00","end":"2023-02-21 19:10:00","type":"available","hasConflict":true,"tooltip":"Custom tooltip"},{"start":"2023-02-22 07:15:00","end":"2023-02-22 08:10:00","type":"unavailable"},{"start":"2023-02-23 17:15:00","end":"2023-02-24 18:00:00","type":"available"}]';
+    },
+
+    type: 'MINV_calendar'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 13:41:25</sys_created_on>
+        <sys_id>b52e56632f81e11082485d492799b65f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>MINV_calendar</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_script_include_b52e56632f81e11082485d492799b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 14:05:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 12:40:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7c092232f41e11082485d492799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>m2m_app_config_theme_d7c092232f41e11082485d492799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 12:40:31</sys_updated_on>
+        <theme display_value="Default">a309795273230010fd843c78caf6a724</theme>
+        <ux_app_configuration display_value="Master Inventory Workspace">30509aef2f01e11082485d492799b630</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</application>
+        <file_path/>
+        <instance_id>1d9953b2db5f1f04536ad5b0cf9619f9</instance_id>
+        <instance_name>dev65641</instance_name>
+        <name>m2m_app_config_theme_d7c092232f41e11082485d492799b6fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-22 12:40:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7c092232f41e11082485d492799b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package><sys_policy/><sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope><sys_update_name>m2m_app_config_theme_d7c092232f41e11082485d492799b6fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-22 12:40:31</sys_updated_on><theme display_value="Default">a309795273230010fd843c78caf6a724</theme><ux_app_configuration display_value="Master Inventory Workspace">30509aef2f01e11082485d492799b630</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-2046162263</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3bc7a16e2f70211082485d492799b64d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 12:40:31</sys_created_on>
+        <sys_id>690196232f41e11082485d492799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1867923c00e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 12:40:31</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>ad019623b641e1108245ed91e81740f2</update_guid>
+        <update_guid_history>ad019623b641e1108245ed91e81740f2:-2046162263</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8b429e632f41e11082485d492799b64c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 12:46:04</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>29d5b717c3824afb9acfd001dfb576d1</sys_id>
+        <sys_metadata>d7c092232f41e11082485d492799b6fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_scope_delete display_value="">011e2072af6e4f00a3ccd9e779b5e5e4</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_d7c092232f41e11082485d492799b6fe</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_d7c092232f41e11082485d492799b6fe">690196232f41e11082485d492799b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 12:46:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

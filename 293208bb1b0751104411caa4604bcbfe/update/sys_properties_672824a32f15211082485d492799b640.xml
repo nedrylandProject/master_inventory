@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Another test group</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_401248_minv.master_group2</name>
+        <read_roles/>
+        <suffix>master_group2</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-06 15:19:02</sys_created_on>
+        <sys_id>672824a32f15211082485d492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_401248_minv.master_group2</sys_name>
+        <sys_package display_value="Master Inventory" source="x_401248_minv">293208bb1b0751104411caa4604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Master Inventory">293208bb1b0751104411caa4604bcbfe</sys_scope>
+        <sys_update_name>sys_properties_672824a32f15211082485d492799b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-06 15:19:02</sys_updated_on>
+        <type>string</type>
+        <value>0c35779b2f11211082485d492799b6d7</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=672824a32f15211082485d492799b640"/>
+</record_update>
